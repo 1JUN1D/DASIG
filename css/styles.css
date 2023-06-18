@@ -1,0 +1,35 @@
+body{
+    background-color: #000D55;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23000D55' cx='50' cy='0' r='50'/%3E%3Cg fill='%2302115d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23051564' cx='50' cy='100' r='50'/%3E%3Cg fill='%2308196c' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%230b1e74' cx='50' cy='200' r='50'/%3E%3Cg fill='%230d227c' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23102784' cx='50' cy='300' r='50'/%3E%3Cg fill='%23122b8c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23143094' cx='50' cy='400' r='50'/%3E%3Cg fill='%2315349d' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%231739a5' cx='50' cy='500' r='50'/%3E%3Cg fill='%23183eae' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%231843b6' cx='50' cy='600' r='50'/%3E%3Cg fill='%231848bf' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23184dc8' cx='50' cy='700' r='50'/%3E%3Cg fill='%231752d1' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%231657da' cx='50' cy='800' r='50'/%3E%3Cg fill='%23135ce3' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%230f61ec' cx='50' cy='900' r='50'/%3E%3Cg fill='%230967f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006CFF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+
+#map {
+    border: 1px solid #00BDFF;
+    box-shadow: 0 0 10px #00BDFF, 0 0 20px #00BDFF, 0 0 30px #00BDFF, 0 0 40px #00BDFF;
+}
+
+
+
+/* Esto aplica a todas las barras de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la barra de desplazamiento */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color del deslizador de la barra de desplazamiento */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del deslizador de la barra de desplazamiento al pasar el ratón */
+}
